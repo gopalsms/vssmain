@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/147f222b-d11e-4fdd-a6c5-f1a8f72468a0/resourceGroups/vssapp_group/providers/Microsoft.Web/sites/vssapp",
+    "appService.deploySubpath": "dist\\vssui"
+}
