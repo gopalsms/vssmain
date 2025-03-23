@@ -9,6 +9,7 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   ProjectNme = 'VIVEKANANDA SAMIDH SANGHA';
+  Title = 'VSSUI';
   currentLanguage: any = 'en';  
   languageCode = 'en'; 
   languageList = [  
@@ -17,6 +18,7 @@ export class AppComponent {
     { 'languageCode': 'hi', 'languageName': 'हिंदी' }  
       
   ];  
+  title: any;
   switchLang(lang: string) {
     this.translate.use(lang);
   }
