@@ -21,7 +21,7 @@ import { AimobjectivesComponent } from './components/aimobjectives/aimobjectives
 /* Acivity Pages Component */
 import { ActivitiesComponent } from './components/activities/activities.component';
 import { AnnualprogramComponent } from './components/activities/annualprogram/annualprogram.component';
-import { BlooddonationComponent } from './components/activities/blooddonation/blooddonation.component';
+
 import { FloodreliefComponent } from './components/activities/floodrelief/floodrelief.component';
 import { GovtservicepreparationcoachingComponent } from './components/activities/govtservicepreparationcoaching/govtservicepreparationcoaching.component';
 import { HealthandeyecheckupcampComponent } from './components/activities/healthandeyecheckupcamp/healthandeyecheckupcamp.component';
@@ -30,8 +30,6 @@ import { StudycircleComponent } from './components/activities/studycircle/studyc
 import { StudentlevelcoachingComponent } from './components/activities/studentlevelcoaching/studentlevelcoaching.component';
 import { SamidhayanComponent } from './components/activities/samidhayan/samidhayan.component';
 import { YouthdaycelebrationComponent } from './components/activities/youthdaycelebration/youthdaycelebration.component';
-import { TestfunctionalitiesComponent } from './components/testfunctionalities/testfunctionalities.component';
-import { BlooddonorsinfotestComponent } from './components/activities/blooddonorsinfotest/blooddonorsinfotest.component';
 
 
 /* Gallery Pages Component */
@@ -71,7 +69,7 @@ import { NavbarmenuComponent } from './components/navbarmenu/navbarmenu.componen
     AimobjectivesComponent,
     ActivitiesComponent,
     AnnualprogramComponent,
-    BlooddonationComponent,
+    //BlooddonationComponent,
     BoardmembersComponent,
     DonationComponent,
     BranchesComponent,
@@ -93,8 +91,7 @@ import { NavbarmenuComponent } from './components/navbarmenu/navbarmenu.componen
     AudiogalleryComponent,
     PhotogalleryComponent,
     VideogalleryComponent,
-    TestfunctionalitiesComponent,
-    BlooddonorsinfotestComponent,
+    
     NavbarmenuComponent
   ],
   imports: [

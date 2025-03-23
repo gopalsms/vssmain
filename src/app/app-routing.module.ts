@@ -8,7 +8,6 @@ import { AimobjectivesComponent } from './components/aimobjectives/aimobjectives
 /* Acivity Pages Component */
 import { ActivitiesComponent } from './components/activities/activities.component';
 import { AnnualprogramComponent } from './components/activities/annualprogram/annualprogram.component';
-import { BlooddonationComponent } from './components/activities/blooddonation/blooddonation.component';
 import { FloodreliefComponent } from './components/activities/floodrelief/floodrelief.component';
 import { GovtservicepreparationcoachingComponent } from './components/activities/govtservicepreparationcoaching/govtservicepreparationcoaching.component';
 import { HealthandeyecheckupcampComponent } from './components/activities/healthandeyecheckupcamp/healthandeyecheckupcamp.component';
@@ -17,8 +16,6 @@ import { StudycircleComponent } from './components/activities/studycircle/studyc
 import { StudentlevelcoachingComponent } from './components/activities/studentlevelcoaching/studentlevelcoaching.component';
 import { SamidhayanComponent } from './components/activities/samidhayan/samidhayan.component';
 import { YouthdaycelebrationComponent } from './components/activities/youthdaycelebration/youthdaycelebration.component';
-import { TestfunctionalitiesComponent } from './components/testfunctionalities/testfunctionalities.component';
-import { BlooddonorsinfotestComponent } from './components/activities/blooddonorsinfotest/blooddonorsinfotest.component';
 
 
 /* Gallery Pages Component */
@@ -59,7 +56,6 @@ const routes: Routes = [
 
   { path: 'activities', component:ActivitiesComponent },
   { path: 'annualprogram', component:AnnualprogramComponent },
-  { path: 'blooddonation', component:BlooddonationComponent },
   { path: 'floodrelief', component:FloodreliefComponent },
   { path: 'govtservicepreparationcoaching', component:GovtservicepreparationcoachingComponent },
   { path: 'healthandeyecheckupcamp', component:HealthandeyecheckupcampComponent },
@@ -68,8 +64,7 @@ const routes: Routes = [
   { path: 'studentlevelcoaching', component:StudentlevelcoachingComponent },
   { path: 'samidhayan', component:SamidhayanComponent },
   { path: 'youthdaycelebration', component:YouthdaycelebrationComponent },
-  { path: 'testfunctionalities', component:TestfunctionalitiesComponent },
-  { path: 'blooddonorsinfotest', component:BlooddonorsinfotestComponent },
+  
   //{ path: '',   redirectTo: '/blooddonationtestList', pathMatch: 'full' },
 
   { path: 'galleries', component:GalleriesComponent },
